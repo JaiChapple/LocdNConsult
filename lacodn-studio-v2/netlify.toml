@@ -1,4 +1,9 @@
+[build]
+  command = "yarn build"
+  publish = "lacodn-studio-v2/.next"
+
 [[redirects]]
-from = "/*"
-to = "/"
-status = 200
+  from = "/*"
+  to = "/"
+  status = 200
+
